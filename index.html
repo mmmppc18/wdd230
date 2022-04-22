@@ -3,21 +3,45 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test Carol Anderson</title>
-  <meta name="description" content="Testing" />
+  <meta name="Carol's assignment page" content="wdd 230 assignments" />
+    <title>Carol Anderson</title>  
   <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
   <header>
-    <h1>Carol Anderson</h1>
-    <img 
+    <h1>
+    <img src="images\6V5A7044ee (2).jpg" alt="Carol's Face" style="width:100px">
+    Carol Anderson
+  </h1>
+
   </header>
+    <h2>WDD 230: Assignment Portal</h2>
+    <ul>
+      <li>Lesson 2: <a href="url">Title</a></li>
+      <li>Lesson 3: <a href="url">Title</a></li>
+      <li>Lesson 4: <a href="url">Title</a></li>
+      <li>Lesson 5: <a href="url">Title</a></li>
+      <li>Lesson 6: <a href="url">Title</a></li>
+      <li>Lesson 7: <a href="url">Title</a></li>
+      <li>Lesson 8: <a href="url">Title</a></li>
+      <li>Lesson 9: <a href="url">Title</a></li>
+      <li>Lesson 10: <a href="url">Title</a></li>
+      <li>Lesson 11: <a href="url">Title</a></li>
+    </ul>
   <nav></nav>
-  <main></main>
-  <footer></footer>
-  <script src=""></script>
+  <main>
+
+  </main>
+  <footer>
+    <p>©2022 | Carol E. Anderson | Utah</p>
+    <p id="date"></p>
+  </footer>
+  <script>
+  const date = new Date(document.lastModified);
+  const update = "Last Updated:" + date;
+  document.getElementById("date").innerHTML = update;
+  </script>
 </body>
 
 </html>

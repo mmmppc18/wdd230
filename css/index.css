@@ -1,4 +1,15 @@
+html {
+    max-width: 600px;
+    margin: auto;
+    
+  }
+
 header {
     background-color: pink;
-    grid-co
+    text-align: center;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
 }
