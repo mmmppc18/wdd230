@@ -1,15 +1,27 @@
 html {
     max-width: 600px;
     margin: auto;
-    
-  }
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 header {
     background-color: pink;
     text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+}
+
+img {
+    vertical-align: middle; 
 }
 
 footer {
     background-color: pink;
     text-align: center;
+    padding: 1px;
+}
+
+main {
+    font-family:'Courier New', Courier, monospace;
 }
