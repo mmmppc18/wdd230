@@ -16,6 +16,7 @@
 html {
     margin: auto;
     font-family: 'Oleo Script Swash Caps', cursive;
+    max-width: 600px;
 }
 
 header {
@@ -43,7 +44,4 @@ main {
 
 h2 {
     text-align: center;
-}
-ul {
-    padding-left: 5px;
 }
