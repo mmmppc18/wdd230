@@ -11,14 +11,15 @@ a:visited {
  body {
      background-color: lightcyan;
      text-align: center;
+     min-width:320px;
+     font-family:'Courier New', Courier, monospace;
+     color: black;
  }
 
 
 main {
     display: grid;
     grid-template-columns: 1fr;
-    font-family:'Courier New', Courier, monospace;
-    color: black;
     text-align:center; 
 }
 
@@ -40,4 +41,5 @@ h2 {
     border-radius: 5px 5px 5px 5px;
     margin: 10px;
     border: 2px solid black;
+    grid-template-columns: 1fr;
 }
