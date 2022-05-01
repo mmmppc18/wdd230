@@ -40,5 +40,6 @@ main {
 }
 
 #alignment, #repetition, #contrast {
-
+background-color: darkslategray;
+color: white;
 }
