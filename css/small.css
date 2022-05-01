@@ -14,6 +14,7 @@
 html {
     margin: auto;
     font-family: 'Oleo Script Swash Caps', cursive;
+    max-width: 500px;
 }
 
 header {
