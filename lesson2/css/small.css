@@ -44,5 +44,7 @@ h2 {
 }
 
 img {
-    max-width: auto;
+    max-width: 320px;
+    height: auto;
+    margin: 3px;
 }
