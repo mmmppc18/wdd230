@@ -36,11 +36,3 @@ h2 {
     background-color: darkslategrey;
 }
 
-#alignment, #contrast, #repetition {
-    background-color: darkgray;
-    border-radius: 5px 5px 5px 5px;
-    margin: 10px;
-    border: 2px solid black;
-    display: grid;
-    grid-template-columns: 1fr;
-}
