@@ -1,14 +1,15 @@
 a:link {
-    color: pink;
-    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
 }
 
 a:visited {
-    color:aquamarine;
+    color: purple;
+    text-decoration: underline;
 }
 
  body {
-     background-color: darkgrey;
+     background-color: lightcyan;
      min-width: 320px;
      margin: auto;
      text-align: center;
@@ -19,28 +20,28 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     margin: auto;
-    font-family: 'Oleo Script Swash Caps', cursive;
-    color: white;
-    text-align:center;
-}
-
-header {
-    background-color: #AB4967;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 1px;
-}
-
-footer {
-    background-color: #AB4967;
-    text-align: center;
-    padding: 1px;
-}
-
-main {
     font-family:'Courier New', Courier, monospace;
+    color: black;
+    text-align:center;
+    border: 
 }
 
+footer, header {
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: bold;
+}
 
+h2 {
+    color: white;
+    background-color: darkslategrey;
+}
 
+#alignment, #contrast, #repetition {
+    background-color: darkgray;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    border: 2px solid black;
+}
