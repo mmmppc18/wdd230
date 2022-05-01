@@ -16,7 +16,6 @@
 html {
     margin: auto;
     font-family: 'Oleo Script Swash Caps', cursive;
-    max-width: 500px;
 }
 
 header {
@@ -40,4 +39,9 @@ footer {
 
 main {
     font-family: 'Courier New', Courier, monospace;
+    padding-left: 0.5px;
+}
+
+h2 {
+    text-align: center;
 }
