@@ -16,14 +16,14 @@
 html {
     margin: auto;
     font-family: 'Oleo Script Swash Caps', cursive;
-    max-width: 960px;
 }
 
 header {
     background-color: #AB4967;
     text-align: center;
+    vertical-align: middle;
     padding-top: 1px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     padding-right: 1px;
 }
 
@@ -39,5 +39,11 @@ footer {
 
 main {
     font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
     text-align: center;
+}
+ul {
+    padding-left: 5px;
 }
