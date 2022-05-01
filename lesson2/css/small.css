@@ -9,7 +9,9 @@ a:visited {
 
  body {
      background-color: darkgrey;
-     max-width: auto;
+     min-width: 320px;
+     margin: auto;
+     text-align: center;
  }
 
 
@@ -40,11 +42,5 @@ main {
     font-family:'Courier New', Courier, monospace;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
-#alignment, #repetition, #contrast {
-color: white;
-}
+
