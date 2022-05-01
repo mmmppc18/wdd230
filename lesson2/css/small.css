@@ -1,3 +1,7 @@
+html {
+    max-width: 960px;
+}
+
 a:link {
     color: blue;
     text-decoration: underline;
