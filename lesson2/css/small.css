@@ -14,6 +14,7 @@ a:visited {
      min-width:320px;
      font-family:'Courier New', Courier, monospace;
      color: black;
+     justify-content: center;
  }
 
 
@@ -36,3 +37,13 @@ h2 {
     background-color: darkslategrey;
 }
 
+#alignment, #contrast, #repetition {
+    background-color: darkgray;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+img {
+    max-width: auto;
+}
