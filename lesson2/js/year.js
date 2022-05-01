@@ -1,0 +1,1 @@
+document.querySelector(".copyright_year").innerHTML = "&copy;" + new Date().getFullYear();
