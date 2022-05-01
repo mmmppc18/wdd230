@@ -1,8 +1,24 @@
-html {
-    max-width: 600px;
+a:link {
+    color: pink;
+    font-weight: bold;
+}
+
+a:visited {
+    color:aquamarine;
+}
+
+ body {
+     background-color: darkgrey;
+ }
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: auto;
     font-family: 'Oleo Script Swash Caps', cursive;
-    font: color white;
+    color: white;
+    text-align:center;
 }
 
 header {
@@ -13,10 +29,6 @@ header {
     padding-right: 1px;
 }
 
-img {
-    vertical-align: middle; 
-}
-
 footer {
     background-color: #AB4967;
     text-align: center;
@@ -25,4 +37,8 @@ footer {
 
 main {
     font-family:'Courier New', Courier, monospace;
+}
+
+#alignment, #repetition, #contrast {
+
 }
