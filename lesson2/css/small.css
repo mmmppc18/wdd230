@@ -10,8 +10,6 @@ a:visited {
 
  body {
      background-color: lightcyan;
-     min-width: 320px;
-     margin: auto;
      text-align: center;
  }
 
@@ -19,10 +17,9 @@ a:visited {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    margin: auto;
     font-family:'Courier New', Courier, monospace;
     color: black;
-    text-align:center;
+    text-align:center; 
 }
 
 footer, header {
@@ -41,5 +38,6 @@ h2 {
 #alignment, #contrast, #repetition {
     background-color: darkgray;
     border-radius: 5px 5px 5px 5px;
+    margin: 10px;
     border: 2px solid black;
 }
