@@ -1,20 +1,8 @@
-/*--primary-color: #AB4967;
-  --secondary-color:#D9D0DE;
-  --accent1-color: #0C1713;*/
-
-/*font-family: 'Oleo Script Swash Caps', cursive;
-  --font-family:'Courier New', Courier, monospace;*/
-
-.profile{
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
-}
-
 html {
     max-width: 600px;
     margin: auto;
     font-family: 'Oleo Script Swash Caps', cursive;
+    font: color white;
 }
 
 header {
