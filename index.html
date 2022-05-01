@@ -6,10 +6,15 @@
   <meta name="Carol's assignment page" content="wdd 230 assignments" />
   <title>Carol Anderson</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
+
   <link rel="stylesheet" href="css/small.css" />
   <link rel="stylesheet" href="css/medium.css" />
-  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  
 
 </head>
 
@@ -41,12 +46,9 @@
 
   <footer>
     <p>©2022 | Carol E. Anderson | Utah</p>
-    <p id="date"></p>
+    <p id="lastUpdate"></p>
   </footer>
-  <script>
-    const date = new Date(document.lastModified);
-    const update = "Last Updated:" + date;
-    document.getElementById("date").innerHTML = update;
+  <script src="js/date.js">
   </script>
 </body>
 
