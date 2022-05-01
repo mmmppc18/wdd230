@@ -9,6 +9,7 @@ a:visited {
 
  body {
      background-color: darkgrey;
+     max-width: auto;
  }
 
 
@@ -39,7 +40,11 @@ main {
     font-family:'Courier New', Courier, monospace;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #alignment, #repetition, #contrast {
-background-color: darkslategray;
 color: white;
 }
