@@ -2,8 +2,4 @@
     main{
         grid-template-columns: 1fr 1fr 1fr;
     }  
-    
-    body, header, footer {
-        max-width: 1440 px;
-    }
 }
