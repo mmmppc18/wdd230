@@ -47,7 +47,7 @@ h2 {
 nav {
 	background-color: #2b1220;
 	margin: 0 auto;
-	max-width: 780px;
+	max-width: 960px;
 	box-shadow: 0 0 30px 220 #b8bdb3 (0, 0, 0, 0.9);
 }
 nav ul {
@@ -76,9 +76,6 @@ main article {
 	background-color: #f9f3f1;
 }
 
-main article ul {
-	margin: 1rem 0 0 1rem;
-}
 main picture {
 	display: none;
 	margin: 1rem;
