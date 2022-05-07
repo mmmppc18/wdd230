@@ -18,7 +18,7 @@ body {
 	font-family: 'Maven Pro', sans-serif;
 }
 
-/* phone or baseline views **************************/
+/* phone or baseline views */
 header,
 footer {
 	background-color: #4f396a;
@@ -33,11 +33,12 @@ footer {
 header,
 main,
 footer {
-	max-width: 767px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 h1 {
 	font-size: 1.1rem;
+	font-family: 'Unna', serif;
 }
 h2 {
 	color: #2b1220;
