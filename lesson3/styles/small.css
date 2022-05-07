@@ -72,6 +72,11 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
+
+main p{
+	padding: 1rem;
+}
+
 main article {
 	margin: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.2);
