@@ -93,12 +93,12 @@ main article {
 
 main picture {
 	margin: 1rem;
-	size: 50px;
+	width: 80%;
 }
 
 table {
 	border: 1px solid #eae7e2;
-	width: 100%;
+	width: 80%;
 	margin: 1.5em auto;
 }
 
