@@ -93,8 +93,7 @@ main article {
 
 main picture {
 	margin: 1rem;
-	max-width: auto;
-	height: auto;
+	size: 50px;
 }
 
 table {
