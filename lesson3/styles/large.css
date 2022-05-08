@@ -12,6 +12,7 @@
 
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
+		max-width:960px;
 	}
 
 	article:nth-child(3) {
