@@ -7,11 +7,8 @@
 
     /* Horizontal Menu Examples */
     /* Flex *********************/
-    nav ul {
+     nav ul li a {
         display: flex;
-    }
-
-    nav ul li {
         flex: 1 1 auto;
     }
 

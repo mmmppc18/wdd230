@@ -5,9 +5,9 @@
 		font-size: 3rem;
 	}
 
-	nav a {
-		font-size: 1.5rem;
-	}
+	nav ul li a {
+        flex: 1 1 auto;
+    }
 
 	main {
 		grid-template-columns: 1fr 1fr;
