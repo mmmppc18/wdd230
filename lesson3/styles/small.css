@@ -35,7 +35,6 @@ footer {
 header,
 main,
 footer {
-	max-width: 800px;
 	margin: 0 auto;
 }
 h1 {
@@ -51,7 +50,6 @@ h2 {
 nav {
 	background-color: #2b1220;
 	margin: 0 auto;
-	max-width: 800px;
 	height: auto;
 }
 nav ul {
@@ -76,11 +74,12 @@ main {
 
 main p{
 	padding: 1rem;
+	text-align: center;
 }
 
 main article {
 	margin: 1rem;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid darkgrey (0, 0, 0, 0.2);
 	padding: 1rem;
 	background-color: #f9f3f1;
 }
