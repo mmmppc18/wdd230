@@ -146,3 +146,7 @@ footer {
 #target {
 	grid-template-columns: 1fr 1fr;
 }
+
+#colorbar {
+	width: 600px;
+}
