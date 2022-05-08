@@ -89,9 +89,9 @@ main article {
 	background-color: #f9f3f1;
 }
 
-main picture {
+img {
 	margin: 1rem;
-	width: 80%;
+	max-width: 100px;
 }
 
 table {
