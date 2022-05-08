@@ -15,4 +15,7 @@
 	main p{
 		font-size: 3rem;
 	}
+	#colorscheme{
+		grid-template-columns: 1fr 1fr;
+	}
 }
