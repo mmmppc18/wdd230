@@ -10,12 +10,24 @@
 	}
 
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
-		max-width: 960px;
+		grid-template-columns: 1fr 1fr;
+		font-size: 1.25rem;
+
 	}
 
 	article:nth-child(3) {
-		grid-column: span 1;
+		grid-column: span 2;
+	}
+
+	main picture {
+		display: block;
+		margin: 1rem;
+	}
+
+	main picture img {
+		width: 80%;
+		height: auto;
+		border: 1px solid #bbb;
 	}
 
 	main p {
@@ -24,10 +36,6 @@
 
 	#colorscheme {
 		grid-template-columns: 1fr 1fr;
-	}
-
-	main picture {
-		margin: 1rem;
 	}
 
 }
