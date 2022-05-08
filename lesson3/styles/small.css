@@ -36,6 +36,7 @@ header,
 main,
 footer {
 	margin: 0 auto;
+	max-width: 960px;
 }
 h1 {
 	font-size: 1.1rem;
@@ -89,4 +90,5 @@ main picture {
 	max-width: 70%;
     height: auto;
 }
+
 
