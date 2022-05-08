@@ -5,6 +5,7 @@
 	header,
 	footer {
 		max-width: 1440px;
+		align-items: center;
 	}
 
 	h1 {
