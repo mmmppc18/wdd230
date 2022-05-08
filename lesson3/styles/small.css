@@ -92,5 +92,36 @@ main picture {
 	max-width: 70%;
     height: auto;
 }
+table {
+	border: 1px solid #eae7e2;
+	width: 100%;
+	margin: 1.5em auto;
+}
+
+table caption {
+	text-align: left;
+	font-size: 1.25em;
+	line-height: 2.2em;
+}
+th {
+	text-align: left;
+	font-weight: bold;
+	color: #333;
+	vertical-align:middle;
+	background-color: #eae7e2;
+	padding: 0.625em 1.250em;
+	border-right: 1px solid #fff;
+}
+
+td {
+	padding: 1.250em;
+	border: 1px solid #eae7e2;
+	vertical-align: top;
+
+}
+
+td ul, td p {
+	padding: 0;
+}
 
 
