@@ -1,5 +1,9 @@
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
+	
+	html{
+		max-width: 960px;
+	}
 
 	h1 {
 		font-size: 3rem;

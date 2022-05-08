@@ -14,7 +14,7 @@ font-family: 'Unna', serif; */
 }
 
 body {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: 'Maven Pro', sans-serif;
 	background-color: #f9f3f1;
 }
@@ -36,7 +36,6 @@ header,
 main,
 footer {
 	margin: 0 auto;
-	max-width: 960px;
 }
 
 h1 {
@@ -54,7 +53,6 @@ nav {
 	background-color: #2b1220;
 	margin: 0 auto;
 	height: auto;
-	max-width: 960px;
 }
 
 nav ul {
