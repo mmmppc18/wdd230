@@ -4,25 +4,31 @@
 	h1 {
 		font-size: 3rem;
 	}
+
 	nav a {
 		font-size: 1.5rem;
 	}
+
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
 	article:nth-child(3) {
 		grid-column: span 1;
 	}
-	main p{
+
+	main p {
 		font-size: 2.75rem;
 	}
-	#colorscheme{
+
+	#colorscheme {
 		grid-template-columns: 1fr 1fr;
 	}
+
 	main picture {
 		margin: 1rem;
 		width: fit-content;
 		height: auto;
 	}
-	
+
 }

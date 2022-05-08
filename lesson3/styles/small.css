@@ -16,7 +16,7 @@ font-family: 'Unna', serif; */
 body {
 	font-size: 16px;
 	font-family: 'Maven Pro', sans-serif;
-	background-color:#f9f3f1;
+	background-color: #f9f3f1;
 }
 
 /* phone or baseline views */
@@ -38,11 +38,13 @@ footer {
 	margin: 0 auto;
 	max-width: 960px;
 }
+
 h1 {
 	font-size: 1.1rem;
 	font-family: 'Unna', serif;
 	text-justify: auto;
 }
+
 h2 {
 	color: #2b1220;
 	padding: 5px;
@@ -52,12 +54,14 @@ nav {
 	background-color: #2b1220;
 	margin: 0 auto;
 	height: auto;
-	max-width:960px;
+	max-width: 960px;
 }
+
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
 }
+
 nav ul li a {
 
 	color: #f9f3f1;
@@ -75,7 +79,7 @@ main {
 	align-items: center;
 }
 
-main p{
+main p {
 	padding: 1rem;
 	text-align: center;
 }
@@ -90,8 +94,9 @@ main article {
 main picture {
 	margin: 1rem;
 	max-width: 70%;
-    height: auto;
+	height: auto;
 }
+
 table {
 	border: 1px solid #eae7e2;
 	width: 100%;
@@ -103,11 +108,12 @@ table caption {
 	font-size: 1.25em;
 	line-height: 2.2em;
 }
+
 th {
 	text-align: left;
 	font-weight: bold;
 	color: #333;
-	vertical-align:middle;
+	vertical-align: middle;
 	background-color: #eae7e2;
 	padding: 0.625em 1.250em;
 	border-right: 1px solid #fff;
@@ -120,16 +126,16 @@ td {
 
 }
 
-td ul, td p {
+td ul,
+td p {
 	padding: 0;
 }
 
-#sampleMaven{
+#sampleMaven {
 	font-size: 2.5em;
 	font-family: 'Maven Pro', sans-serif;
 }
-#sampleUnna{
+
+#sampleUnna {
 	font-size: 2.5em;
 }
-
-
