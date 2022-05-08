@@ -1,6 +1,11 @@
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
 
+	body,
+	header,
+	footer {
+		max-width: 1440px;
+	}
 
 	h1 {
 		font-size: 3rem;
@@ -12,7 +17,7 @@
 
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
-		max-width:960px;
+		max-width: 960px;
 	}
 
 	article:nth-child(3) {
