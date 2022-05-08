@@ -38,4 +38,8 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
+	#typography {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
+
