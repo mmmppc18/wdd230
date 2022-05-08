@@ -52,6 +52,7 @@ nav {
 	background-color: #2b1220;
 	margin: 0 auto;
 	height: auto;
+	max-width:960px;
 }
 nav ul {
 	list-style-type: none;
@@ -71,6 +72,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
+	align-items: center;
 }
 
 main p{
