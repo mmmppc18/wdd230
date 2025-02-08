@@ -4,12 +4,11 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
         {
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\mmmpp\\Documents\\2025 Winter\\WDD 230\\wdd230-2024\\index.html"
+            "file": "c:\\Users\\mmmpp\\Documents\\2025 Winter\\WDD 230\\index.html"
         }
     ]
 }
