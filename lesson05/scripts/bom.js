@@ -3,9 +3,11 @@ const button = document.querySelector('button');
 const list = document.querySelector('chaplist');
 
 button.addEventListener('click', () {
-    if (input.value != '')
-    {
+    if (input.value != ''){
 
+    }
+    else{
+        
     }
 })
 
