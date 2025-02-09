@@ -8,26 +8,27 @@ a:visited {
     text-decoration: underline;
 }
 
- body {
-     background-color: lightcyan;
-     text-align: center;
-     font-family:'Courier New', Courier, monospace;
-     color: black;
-     justify-content: center;
-     margin: auto;
- }
+body {
+    background-color: lightcyan;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    justify-content: center;
+    margin: auto;
+}
 
 
 main {
     display: grid;
     grid-template-columns: 1fr;
-    text-align:center; 
+    text-align: center;
 }
 
-footer, header {
+footer,
+header {
     background-color: black;
     text-align: center;
-    color:white;
+    color: white;
     font-family: 'Oleo Script Swash Caps', cursive;
     font-weight: bold;
 }
@@ -37,10 +38,10 @@ h2 {
     background-color: darkslategrey;
 }
 
-#alignment, #contrast, #repetition {
+#alignment,
+#contrast,
+#repetition {
     background-color: darkgray;
-    border-radius: 5px 5px 5px 5px;
-    margin: 10px;
     border: 2px solid black;
 }
 
@@ -48,4 +49,26 @@ img {
     max-width: 80%;
     height: auto;
     margin: 3px;
+}
+
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #contrast {
+        grid-column: span 2;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #contrast {
+        grid-column: span 1;
+    }
 }
