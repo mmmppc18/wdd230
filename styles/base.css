@@ -1,138 +1,152 @@
 body,
 header,
 footer {
-    width: 100%;
+width: 100%;
 }
 
 a:link {
-    color: blue;
+color: blue;
 }
 
 a:visited {
-    color: purple;
+color: purple;
 }
 
 body {
-    background-color: lightcyan;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    margin: auto;
+background-color: lightcyan;
+font-family: 'Courier New', Courier, monospace;
+color: black;
+margin: auto;
 }
 
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-bottom: 15px;
-    text-align: left;
+display: grid;
+grid-template-columns: 1fr;
+padding-bottom: 15px;
+text-align: left;
 }
 
 footer,
 header {
-    background-color: #AB4967;
-    text-align: center;
-    align-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    color: white;
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-weight: bold;
+background-color: #AB4967;
+text-align: center;
+align-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+color: white;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-weight: bold;
 }
 
 nav {
-    font-size: 25px;
-    line-height: 50px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    vertical-align: middle;
-    text-align: center;
-    list-style-type: none;
+font-size: 25px;
+/*! line-height: 50px; */
+background-color: rgb(0, 0, 0);
+color: white;
+vertical-align: middle;
+text-align: center;
+list-style-type: none;
+}
+.navigation {
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
+background-color: black;
+color: white;
+margin: 0;
 }
 
+.navigation a {
+text-align: center;
+text-decoration: none;
+color: white;
+transition: all 0.3s ease-in-out;
+padding: 10px 0;
+margin-bottom: 5px;
+}
+
+.navigation a:hover {
+background-color: lightgray;
+color: darkslategray;
+font-weight: 700;
+}
+
+
 h2 {
-    color: black;
-    text-align: center;
-    padding-top: 10px;
+color: black;
+text-align: center;
+padding-top: 10px;
 }
 
 h3 {
-    color: white;
-    background-color: darkslategrey;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
+color: white;
+background-color: darkslategrey;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
 }
 
 img {
-    max-width: 80%;
-    height: auto;
+max-width: 80%;
+height: auto;
 }
 
 .card {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 
 #menu {
-    font-size: 25px;
-    line-height: 50px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    vertical-align: middle;
-    text-align: center;
-    transition: background-color 0.3s ease-in-out;
+font-size: 25px;
+line-height: 50px;
+background-color: rgb(0, 0, 0);
+color: white;
+vertical-align: middle;
+text-align: center;
+transition: background-color 0.3s ease-in-out;
+position: absolute;
+padding: 10px;
 }
 
 
 @media only screen and (max-width: 768px) {
 
-    #menu::before {
-        content: "☰";
-    }
+#menu::before {
+content: "☰";
+}
 
-    #menu.open::before {
-        content: "✖️";
-    }
+#menu.open::before {
+content: "✖️";
+}
 
-    .navigation {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        list-style-type: none;
-        background-color: black;
-        color: white;
-    }
+.navigation {
+flex-direction: column;
+}
 
-    .navigation a {
-        display: none;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        transition: all 0.3s ease-in-out;
-        padding: 10px 0;
-    }
+.navigation a {
+display: none;
+}
+.open a {
+display: block;
+}
 
-    .navigation a:hover {
-        background-color: lightgray;
-        color: darkslategray;
-        font-weight: 700;
-    }
+.active::before {
+content: "❤️";
+}
 
-    .open a {
-        display: block;
-        margin-bottom: 5px;
-    }
+#menu:hover {
+background-color: lightgray;
+}
 
-    .active::before {
-        content: "❤️";
-    }
-
-    nav {
-        font-size: 18px;
-    }
+@media only screen and (max-width: 768px) {
+nav {
+font-size: 18px;
+}
+}
 }
