@@ -132,9 +132,7 @@ img {
         content: "❤️";
     }
 
-    @media only screen and (max-width: 768px) {
-        nav {
-            font-size: 18px;
-        }
+    nav {
+        font-size: 18px;
     }
 }
