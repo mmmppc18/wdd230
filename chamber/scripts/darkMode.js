@@ -1,14 +1,12 @@
-const main =
-    document.querySelector("main");
-
-const modeSwitch =
-    document.querySelector("input[type=checkbox]");
+const main = document.querySelector("main");
+const modeSwitch = document.querySelector("input[type=checkbox]");
 
 modeSwitch.addEventListener('change', function () {
     if (this.checked) {
-        console.log("");
-        main.classList.toggle(main.darkMode);
+        main.classList.add("darkMode"); 
+        document.body.classList.add("darkMode"); 
     } else {
-        console.log("");
+        main.classList.remove("darkMode"); 
+        document.body.classList.remove("darkMode");
     }
 });
