@@ -95,6 +95,12 @@ img {
     margin: auto;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .hero img {
     width: 100%;
     height: auto;
@@ -103,19 +109,22 @@ img {
 
 .heroLabel {
     position: absolute;
-    top: 500px;
-    left: 250px;
+    top: 20%;
+    left: 27%;
+    transform: translate(-20%, -27%);
     background: white;
     border: 1px solid black;
-    padding: 2.0rem;
+    padding: 2rem;
     opacity: 0.75;
+    max-width: 90%;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .heroLabel p {
     margin: 0;
-    padding: .25rem;
-    font-weight: 700;
-    font-size: 1.5rem;
 }
 
 .card {
@@ -171,9 +180,12 @@ img {
         background-color: lightgray;
     }
 
-    @media only screen and (max-width: 768px) {
-        nav {
-            font-size: 18px;
-        }
+    .heroLabel {
+        max-width: 90%;
+        padding: 1.5rem;
+    }
+
+    .heroLabel p {
+        font-size: 1.2rem;
     }
 }
