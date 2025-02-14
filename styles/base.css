@@ -91,11 +91,32 @@ h3 {
 img {
     max-width: 80%;
     height: auto;
+    display: block;
+    margin: auto;
 }
+
 .hero img {
     width: 100%;
     height: auto;
-  }
+
+}
+
+.heroLabel {
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    background: white;
+    border: 1px solid black;
+    padding: 2.0rem;
+    opacity: 0.75;
+}
+
+.heroLabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 
 .card {
     list-style-type: none;
