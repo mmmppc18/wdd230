@@ -316,33 +316,31 @@ body.darkMode .slider {
 @media only screen and (max-width: 768px) {
 
     #menu::before {
-        content: "☰";
-    }
+content: "☰";
+}
 
-    #menu.open::before {
-        content: "✖️";
-    }
+#menu.open::before {
+content: "✖️";
+}
 
-    .navigation {
-        flex-direction: column;
-    }
+.navigation {
+flex-direction: column;
+}
 
-    .navigation a {
-        display: none;
-    }
+.navigation a {
+display: none;
+}
+.open a {
+display: block;
+}
 
-    .open a {
-        display: block;
-    }
+.active::before {
+content: "❤️";
+}
 
-    .active::before {
-        content: "❤️";
-    }
-
-    #menu:hover {
-        background-color: lightgray;
-    }
-
+#menu:hover {
+background-color: lightgray;
+}
     @media only screen and (max-width: 768px) {
         nav {
             font-size: 18px;
