@@ -24,9 +24,8 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	text-justify: center;
 	padding: 10px;
-	border: 2px solid #2b1220 (0, 0, 0, 0.1);
+	border: 2px solid #2b1220;
 }
 
 header,
@@ -85,7 +84,7 @@ main p {
 
 main article {
 	margin: 1rem;
-	border: 1px solid darkgrey (0, 0, 0, 0.2);
+	border: 1px solid darkgrey;
 	padding: 1rem;
 	background-color: #f9f3f1;
 }
@@ -93,6 +92,8 @@ main article {
 img {
 	height: auto;
 	max-width: 100%;
+	display: block;
+	margin: auto;
 }
 
 table {
