@@ -28,11 +28,6 @@ body {
 
 }
 
-body.darkMode {
-    background-color: #413d3f;
-    color: white;
-}
-
 header,
 footer {
     background-color: #4f396a;
@@ -70,6 +65,31 @@ nav {
     list-style-type: none !important;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.navigation a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+.navigation a:hover {
+    background-color: lightgray;
+    color: darkslategray;
+    font-weight: 700;
+}
+
+
 nav ul {
     list-style-type: none !important;
     overflow: hidden;
@@ -94,6 +114,7 @@ main {
 
 main.darkMode {
     background-color: #413d3f;
+    color: white;
 }
 
 main p {
@@ -253,39 +274,28 @@ input:checked+.slider:before {
     }
 
     .navigation {
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        list-style-type: none;
-        background-color: black;
-        color: white;
     }
 
     .navigation a {
         display: none;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        transition: all 0.3s ease-in-out;
-        padding: 10px 0;
-    }
-
-    .navigation a:hover {
-        background-color: lightgray;
-        color: darkslategray;
-        font-weight: 700;
     }
 
     .open a {
         display: block;
-        margin-bottom: 5px;
     }
 
     .active::before {
         content: "❤️";
     }
 
-    nav {
-        font-size: 18px;
+    #menu:hover {
+        background-color: lightgray;
+    }
+
+    @media only screen and (max-width: 768px) {
+        nav {
+            font-size: 18px;
+        }
     }
 }
