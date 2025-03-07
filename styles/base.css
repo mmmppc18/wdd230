@@ -80,7 +80,7 @@ h2 {
     padding-top: 10px;
 }
 
-h3 {
+h4 {
     color: white;
     background-color: darkslategrey;
     padding-top: 15px;
@@ -123,7 +123,7 @@ img {
     font-size: 1.5rem;
 }
 
-.heroLabel h4 {
+.heroLabel h3 {
     margin: 0;
 }
 
@@ -190,7 +190,7 @@ iframe {
         padding: 1.5rem;
     }
 
-    .heroLabel h4 {
+    .heroLabel h3 {
         font-size: 1.2rem;
     }
 }
