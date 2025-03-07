@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    s width: 300px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer,
+header {
+    background-color: #AB4967;
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: bold;
+}
