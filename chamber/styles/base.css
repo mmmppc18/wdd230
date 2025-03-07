@@ -150,6 +150,7 @@ main article {
     color: black;
     margin: auto;
     justify-content: center;
+    text-align: center;
 }
 
 #temperature {
