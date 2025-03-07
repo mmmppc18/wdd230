@@ -1,0 +1,35 @@
+{
+    "wardInfo": {
+        "familySurname": "Doe",
+        "recordsMovedDate": "03-06-2025",
+        "numberInFamily": "5",
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "John Doe",
+                "gender": "Male",
+                "birthdate": "08-11-1990"
+            },
+            {
+                "name": "Jane Doe",
+                "gender": "Female",
+                "birthdate": "05-22-1992"
+            },
+            {
+                "name": "Sky Doe",
+                "gender": "Male",
+                "birthdate": "03-17-2012"
+            },
+            {
+                "name": "Rebecca Doe",
+                "gender": "Female",
+                "birthdate": "11-12-2015"
+            },
+            {
+                "name": "Sterling Doe",
+                "gender": "Male",
+                "birthdate": "06-18-2019"
+            }
+        ]
+    }
+}
