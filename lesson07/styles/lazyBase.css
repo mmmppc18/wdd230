@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    background: black;
+    animation: fade 15s;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer,
+header {
+    background-color: #AB4967;
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-weight: bold;
+}
