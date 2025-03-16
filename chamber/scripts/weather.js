@@ -21,7 +21,7 @@ async function apiFetch(url) {
 
 }
 
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=${41.73}&lon=${-111.83}&appid=${`4d28a8b5d356758d518dc67e8c28e7c5`}&units=imperial`;
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=${41.22}&lon=${-111.97}&appid=${`4d28a8b5d356758d518dc67e8c28e7c5`}&units=imperial`;
 apiFetch(url);
 
 function displayResults(data) {

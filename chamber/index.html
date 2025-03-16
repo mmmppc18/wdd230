@@ -88,8 +88,13 @@
 
         <div class="weather">
             <h2>Weather in Ogden, UT</h2>
-            <img id="weatherIcon" src="" alt="Weather Icon">
-            <p id="temperature">Temperature: will be here.</p>
+            <label for="weather">
+                <p>Temperature:<span id="current-temp"></span></p>
+            </label>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <p id="description"></p>
             <p id="windchill">Windchill: N/A</p>
             <span class="label">Number of Visits: </span><span class="visits"></span>
@@ -104,6 +109,7 @@
         <!--<script src="scripts/windchill.js"></script>-->
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/visits.js"></script>
+        <script src="scripts/weather.js"></script>
     </footer>
 </body>
 
