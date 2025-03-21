@@ -65,7 +65,7 @@
         <a id="menu"></a>
         <nav>
             <ul class="navigation">
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="">Directory</a></li>
                 <li><a href="">Join</a></li>
@@ -73,38 +73,43 @@
             </ul>
         </nav>
     </div>
-    <div class="hero">
-        <picture>
-            <source srcset="images/hero-small.webp" media="(max-width: 500px)">
-            <source srcset="images/hero-med.webp" media="(max-width: 1000px)">
-            <img src="images/hero-large.webp" alt="Happy Business People" width="1500" height="750">
+    <div class="container">
+        <aside class="sidebar">
+            <span class="label">Number of Visits: </span><span class="visits"></span>
+            <p id="visitor-message"></p>
+            <div class="info-container">
+                <h2>Demographics</h2>
+                <p>Population: 87,267</p>
+                <p>Average age: 33.3 years old</p>
+            </div>
+            <div class="info-container">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>Farmers' Market - April 1st</li>
+                    <li>Community Theater - April 10th</li>
+                    <li>Easter Egg Hunt for ages 2-12 - April 19th</li>
+                    <li>Concert in the Park - April 30th</li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main-content">
+            <h2>Local Photos</h2>
+            <div class="photos">
+                <img class="lazy" data-src="images/Ogden25st.webp" alt="Ogden, UT 25th ST" />
+                <img class="lazy" data-src="images/peerysEgyptianTheater.jpg" alt="Peery's Egyptian Theater" />
+                <img class="lazy" data-src="images/treehouseMuseum.jpg" alt="Tree House Museum" />
+                <img class="lazy" data-src="" alt="" />
+                <img class="lazy" data-src="" alt="" />
+                <img class="lazy" data-src="" alt="" />
+            </div>
 
-        </picture>
+        </main>
+
     </div>
 
-    <main>
-        <h2>Events</h2>
-        <p></p>
 
-        <div class="weather">
-            <h2>Weather in Ogden, UT</h2>
-
-            <p>Temperature:<span id="current-temp"></span></p>
-
-            <figure>
-                <img id="weather-icon" src="url" alt="weather icon">
-                <figcaption></figcaption>
-
-
-            </figure>
-            <p id="description"></p>
-            <p id="windchill">Windchill: N/A</p>
-            <span class="label">Number of Visits: </span><span class="visits"></span>
-        </div>
-        <h2>Member Spotlights</h2>
-    </main>
     <footer>
-        &copy;<span id="year"></span> Ogden-Weber Chamber | Carol E. Anderson | WDD 230 Project <span
+        &copy;<span id="yer"></span> Ogden-Weber Chamber | Carol E. Anderson | WDD 230 Project <span
             id="lastModified"></span>
         <script src="scripts/getdates.js"></script>
         <script src="scripts/darkMode.js"></script>
@@ -112,6 +117,7 @@
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/visits.js"></script>
         <script src="scripts/weather.js"></script>
+        <script src="scripts/discover.js"></script>
     </footer>
 </body>
 
