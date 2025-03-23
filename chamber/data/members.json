@@ -1,0 +1,68 @@
+{
+    "members":[
+{
+    "name": "ABC Roofing",
+    "address": "123 yes",
+    "phone":"1234567890",
+    "website":"ABCRoofing.com",
+    "icon":"roofonfire.ico",
+    "level":"silver",
+    "interested":"networking"
+},
+{
+    "name": "Bath Soap 4 U",
+    "address": "456 12th st",
+    "phone":"4567891895",
+    "website":"keepclean.com",
+    "icon":"dirtybubble.ico",
+    "level":"bronze",
+    "interested":"advertising"
+},
+{
+    "name": "Healthy Kids",
+    "address": "767 8th st",
+    "phone":"4567891234",
+    "website":"Healthykids.org",
+    "icon":"smiles.ico",
+    "level":"np",
+    "interested":"fundraising"
+},
+{
+    "name": "Smiles for Less",
+    "address": " 234 kjop st",
+    "phone":"4456845251",
+    "website":"Smileorthodontics.com",
+    "icon":"braceface.ico",
+    "level":"Gold",
+    "interested":"networking"
+},
+{
+    "name": "Flower for All Occasions",
+    "address": "125 flower circ",
+    "phone":"8954567894",
+    "website":"flowers2u.com",
+    "icon":"bouquet.ico",
+    "level":"silver",
+    "interested":"Women in business"
+},
+{
+    "name": "Happy Feet Dance Studio",
+    "address": "456 circle dr",
+    "phone":"7894561234",
+    "website":"keepgrooving.com",
+    "icon":"danceshoes.ico",
+    "level":"gold",
+    "interested":"Advertising"
+},
+{
+    "name": "The Potting Shed",
+    "address": "124 green dr",
+    "phone":"2678957894",
+    "website":"Wateryourplants.com",
+    "icon":"plant.ico",
+    "level":"silver",
+    "interested":"Networking"
+}
+
+    ]
+}
