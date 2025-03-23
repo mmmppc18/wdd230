@@ -174,12 +174,14 @@ main article {
     padding: 20px;
     border-radius: 8px;
 }
+
 #visitor-message {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100px; /* You can adjust the height as needed */
+    height: 100px;
+    /* You can adjust the height as needed */
     margin-bottom: 20px;
     font-size: 18px;
     background-color: #e0e0e0;
@@ -263,6 +265,63 @@ td p {
 #sampleUnna {
     font-size: 2.5em;
     text-align: center;
+}
+
+/*----------- FORM STYLING --------------*/
+.cf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.cf1 legend {
+    color: #825aab;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.cf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #2b1220;
+    font-size: .9rem;
+}
+
+.cf1 input[type="text"],
+.cf1 input[type="tel"],
+.cf1 input[type="email"],
+.cf1 input[type="number"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.cf1 input[type="radio"],
+.cf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.cf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#d1b1f0, #4f396a);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 4px 4px #999;
+}
+
+.cf1 input:required {
+    border-right: solid 8px red;
 }
 
 footer {

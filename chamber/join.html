@@ -45,7 +45,7 @@
             </ul>
         </div>
 
-        <h1>Ogden Weber Chamber of Commerce Join</h1>
+        <h1>Ogden Weber Chamber of Commerce</h1>
 
     </header>
 
@@ -67,6 +67,39 @@
             </ul>
         </nav>
     </div>
+    <main>
+        <h2>Join The Chamber</h2>
+        <form method="get" action="thanks.html" class="cf1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Title or Position in Company<input type="text" name="position" placeholder="Accountant"></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Mobile Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Business/Organization Name<input type="text" name="busname" placeholder="ABC Business"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend class="membership">Membership Level</legend>
+                <label><input type="radio" name="audience" value="np">Non-Profit</label>
+                <label><input type="radio" name="audience" value="bronze">Bronze</label>
+                <label><input type="radio" name="audience" value="silver">Silver</label>
+                <label><input type="radio" name="audience" value="gold">Gold</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <label>Please tell us a little about your business</label>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+
+            </fieldset>
+
+            <input type="hidden" id="timestamp" name="timestamp">
+
+            <input type="submit" value="Join The Chamber">
+        </form>
+
+    </main>
 
     <footer>
         &copy;<span id="year"></span> Ogden-Weber Chamber | Carol E. Anderson | WDD 230 Project <span
@@ -77,6 +110,7 @@
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/visits.js"></script>
         <script src="scripts/weather.js"></script>
+        <script src="scripts/hidden.js"></script>
     </footer>
 </body>
 
