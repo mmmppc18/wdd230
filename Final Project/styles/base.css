@@ -1,0 +1,94 @@
+/*Color Pallette 
+#E08724
+#E04F00
+#E00707
+#9E0505
+#E3B49A
+#22A86B
+#1D4542
+#771E78
+#E5DDDD
+#24060E
+fonts: silver northern titles, logos
+
+*/
+
+/*=================
+    Global Styles
+  =================*/
+* {
+    width: 100%;
+}
+
+:root {
+    --primary-color: #1D4542;
+    --secondary-color: #b88f8f;
+    --font-size-base: 16px;
+}
+
+body {
+    background-color: #9f8888;
+    color: #E5DDDD;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav {
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    color: #E5DDDD;
+    vertical-align: middle;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #700e0e;
+    color: white;
+    margin: 0;
+}
+
+.navigation a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+.navigation a:hover {
+    background-color: lightgray;
+    color: darkslategray;
+    font-weight: 700;
+}
+
+
+/* ================
+   Layout Styles
+   ================ */
+header,
+footer {
+    background-color: #1D4542;
+    color: #E5DDDD;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ================
+   Media Queries
+   ================ */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
