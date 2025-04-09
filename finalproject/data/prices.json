@@ -1,0 +1,52 @@
+{
+    "prices": [
+        {
+            "type": "Honda Metro Scooter",
+            "persons": "1",
+            "rhd": "$20",
+            "rfd": "$30",
+            "whd": "$25",
+            "wfd": "35"
+        },
+        {
+            "type": "Honda Dio Scooter",
+            "persons": "2",
+            "rhd": "$30",
+            "rfd": "$40",
+            "whd": "$35",
+            "wfd": "$45"
+        },
+        {
+            "type": "Honda PCX150 Scooter",
+            "persons": "2",
+            "rhd": "$40",
+            "rfd": "$50",
+            "whd": "$45",
+            "wfd": "$55"
+        },
+        {
+            "type": "Honda Pioneer ATV",
+            "persons": "4",
+            "rhd": "$50",
+            "rfd": "$70",
+            "whd": "$60",
+            "wfd": "$80"
+        },
+        {
+            "type": "Jeep Wrangler - 4 door with a/c",
+            "persons": "5",
+            "rhd": "$70",
+            "rfd": "$100",
+            "whd": "$85",
+            "wfd": "$125"
+        },
+        {
+            "type": "Jeep Wrangler - 2 door",
+            "persons": "4",
+            "rhd": "$60",
+            "rfd": "$85",
+            "whd": "$70",
+            "wfd": "$90"
+        }
+    ]
+}
