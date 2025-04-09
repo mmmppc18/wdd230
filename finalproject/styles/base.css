@@ -141,6 +141,7 @@ img {
 
 .rentals li {
     padding: 1em 0 3em;
+    list-style-type: none;
 }
 
 #weather-icon {
@@ -148,12 +149,6 @@ img {
     height: auto;
 }
 
-ul,
-ol {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
 /* ================
    Media Queries

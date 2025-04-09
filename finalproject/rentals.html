@@ -15,7 +15,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 
     <link rel="icon" href="finalFavicon.ico">
 
@@ -47,7 +48,71 @@
         </nav>
     </div>
     <main>
-        
+        <div class="agreement">
+            <h2>Rental Services and Agreements</h2>
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+        <section class="reservation-form">
+            <h2>Reservation Details</h2>
+
+            <form action="#" method="POST">
+                <div class="form-grid">
+                    <label for="name">Full Name: </label>
+                    <input type="text" id="name" required>
+
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number: </label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <fieldset>
+                        <legend>Rental Type: </legend>
+                        <div class="radio-option">
+                            <input type="radio" id="metro" name="rental-type" value="metro" required>
+                            <label for="metro">Honda Metropolitan (49cc) - 1 person</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="dio" name="rental-type" value="dio" required>
+                            <label for="dio">Honda Dio (110cc) - 2 person</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="pc" name="rental-type" value="pc" required>
+                            <label for="pc">Honda PCX150 (149cc) - 2 person</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="pioneer" name="rental-type" value="pioneer" required>
+                            <label for="pioneer">Honda Pioneer 1000 - 4 person</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="jeep4" name="rental-type" value="jeep4" required>
+                            <label for="jeep4">Jeep Wrangler - 4 door manuel with A/C - 5 person</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="jeep2" name="rental-type" value="jeep2" required>
+                            <label for="jeep2">Jeep Wrangler - 2 door - open air - manuel - 4 person</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start-date" required>
+
+                    
+                    
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <p>
