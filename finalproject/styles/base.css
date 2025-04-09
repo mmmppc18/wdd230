@@ -24,7 +24,7 @@ fonts: silver northern titles, logos
 :root {
     --primary-color: #1D4542;
     --secondary-color: #e7b479;
-    --font-size-base: 16px;
+    --font-size-base: 20px;
 }
 
 body {
@@ -34,14 +34,28 @@ body {
     text-decoration: none;
 }
 
+header h1 {
+    font-size: 70px;
+    padding-top: 1em;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
+h2 {
+    font-size: 50px;
+    background-color: #22A86B;
+}
+
+h3 {
+    font-size: 35px;
+}
+
 nav {
     font-size: 25px;
-    background-color: rgb(0, 0, 0);
+    background-color: #700e0e;
     color: #E5DDDD;
     vertical-align: middle;
     text-align: center;
@@ -52,9 +66,11 @@ nav {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #700e0e;
+    background-color: #24060E;
     color: white;
     margin: 0;
+    padding: 10px 0 10px;
+
 }
 
 .navigation a {
@@ -100,6 +116,7 @@ nav {
 }
 
 
+
 /* ================
    Layout Styles
    ================ */
@@ -111,10 +128,31 @@ footer {
     padding: 1rem;
 }
 
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.rentals img {
+    max-width: 20%;
+}
+
+.rentals li {
+    padding: 1em 0 3em;
+}
 
 #weather-icon {
     width: 80px;
     height: auto;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* ================
