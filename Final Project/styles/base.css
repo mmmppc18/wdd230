@@ -1,5 +1,6 @@
 /*Color Pallette 
 #E08724
+#e7b479
 #E04F00
 #E00707
 #9E0505
@@ -22,13 +23,13 @@ fonts: silver northern titles, logos
 
 :root {
     --primary-color: #1D4542;
-    --secondary-color: #b88f8f;
+    --secondary-color: #e7b479;
     --font-size-base: 16px;
 }
 
 body {
-    background-color: #9f8888;
-    color: #E5DDDD;
+    background-color: #e7b479;
+    color: #24060E;
     text-align: center;
     text-decoration: none;
 }
@@ -37,7 +38,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 
 nav {
     font-size: 25px;
@@ -72,6 +72,33 @@ nav {
     font-weight: 700;
 }
 
+.closeable-message button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+
+.closeable-message {
+    background-color: #E04F00;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    border-radius: 0px 0px 10px 10px;
+}
+
 
 /* ================
    Layout Styles
@@ -82,6 +109,12 @@ footer {
     color: #E5DDDD;
     text-align: center;
     padding: 1rem;
+}
+
+
+#weather-icon {
+    width: 80px;
+    height: auto;
 }
 
 /* ================

@@ -9,7 +9,9 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "C:\\Users\\mmmpp\\Documents\\01 Winter 2022\\Web frontend\\wdd230\\index.html"
+            "file": "C:\\Users\\mmmpp\\Documents\\01 Winter 2022\\Web frontend\\wdd230\\Final Project\\index.html"
+            
+            /*"C:\\Users\\mmmpp\\Documents\\01 Winter 2022\\Web frontend\\wdd230\\index.html"*/
         }
     ]
 }

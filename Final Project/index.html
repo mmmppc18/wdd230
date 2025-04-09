@@ -27,11 +27,11 @@
 
 <body>
     <header>
-        <h1>Page Title Heading </h1>
+        <h1>Scoots Motor Scooter Rentals</h1>
     </header>
     <div class="banner">
         <nav>
-            Click <a href="contact.html">here</a> to add fun! Or Call us at (800) 587-8965.
+            <a href="contact.html">Click here to add fun!</a>
         </nav>
     </div>
 
@@ -47,11 +47,31 @@
             </ul>
         </nav>
     </div>
-    <main></main>
+    <div class="closeable-message" id="high-temp-message">
+        Today's High Temp: <span id="temp-max"></span>&deg;F
+        <button onclick="closeMessage()">X</button>
+    </div>
+    <main>
+        <h1>Types of Rentals</h1>
+        <div class="weather-info">
+            <h3>Weather in Conzumel, Mexico</h3>
+
+            <p>Current temperature: <span id="current-temp"></span></p>
+            <p>Humidity: <span id="current-humidity"></span></p>
+            <img id="weather-icon" src="" alt="Weather Icon" />
+            <p>Weather: <span id="weather-description"></span></p>
+            <h3>Tomorrow's 3:00 PM Forecast</h3>
+            <p>Temperature: <span id="forecast-temp"></span></p>
+            
+
+        </div>
+
+    </main>
     <footer>
         <p>
             &copy;<span id="year"></span> | Carol E. Anderson | Utah
         </p>
+        <script src="scripts/weather.js"></script>
     </footer>
     <script src="scripts/"></script>
 </body>
