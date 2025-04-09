@@ -149,6 +149,87 @@ img {
     height: auto;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: left;
+    justify-items: center;
+}
+
+.rental-agreement,
+.reservation-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-grid label {
+    font-weight: bold;
+}
+
+.form-grid legend {
+    font-weight: bold;
+}
+
+
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-grid textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-btn {
+    grid-column: span 2;
+    padding: 15px;
+    background-color: #072f5a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #4f8bcb;
+}
+
+.rental-type {
+    grid-column: span 2;
+    margin-bottom: 20px;
+}
+
+.rental-type legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.radio-option {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.radio-option input {
+    margin-right: 5px
+}
+
+.radio-option label {
+    font-size: 1rem;
+    font-weight: normal;
+}
 
 /* ================
    Media Queries
@@ -156,5 +237,14 @@ img {
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .radio-option {
+        display: block;
+        margin-bottom: 10px;
     }
 }

@@ -48,8 +48,9 @@
         </nav>
     </div>
     <main>
-        <div class="agreement">
-            <h2>Rental Services and Agreements</h2>
+        <h2>Rental Services and Agreements</h2>
+        <div class="container">
+
             <ul>
                 <li>A $50 security deposit is required to confirm reservations.</li>
                 <li>A valid drivers license is required in hand at the time of rental.</li>
@@ -63,19 +64,20 @@
                 <li>Rentals may be returned to either physical location.</li>
             </ul>
         </div>
+        <h2>Reservation Details</h2>
         <section class="reservation-form">
-            <h2>Reservation Details</h2>
+
 
             <form action="#" method="POST">
                 <div class="form-grid">
                     <label for="name">Full Name: </label>
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" required><br>
 
                     <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required><br>
 
                     <label for="phone">Phone Number: </label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" id="phone" name="phone" required><br>
 
                     <fieldset>
                         <legend>Rental Type: </legend>
@@ -103,16 +105,41 @@
                             <input type="radio" id="jeep2" name="rental-type" value="jeep2" required>
                             <label for="jeep2">Jeep Wrangler - 2 door - open air - manuel - 4 person</label>
                         </div>
-                    </fieldset>
+                    </fieldset><br>
 
                     <label for="start-date">Start Date:</label>
-                    <input type="date" id="start-date" name="start-date" required>
+                    <input type="date" id="start-date" name="start-date" required><br>
 
-                    
-                    
+                    <label for="rental-period">Rental Period (Days): </label>
+                    <input type="number" id="rental-period" name="rental-period" min="1" required><br>
+
+                    <label for="home-state">Homer State or Country: </label>
+                    <input type="text" id="home-state" name="home-state" required><br>
+
+                    <label for="cruise-line">Cruise Line (if applicable): </label>
+                    <input type="text" id="cruise-line" name="cruise-line"><br>
+
+                    <label for="accommadations">Special Acommodations/Comments: </label>
+                    <input type="text" id="accommadations" name="accommadations"><br>
+
+                    <fieldset>
+                        <legend>Rental Location: </legend>
+                        <div class="radio-option">
+                            <input type="radio" id="playa" name="rental-location" value="playa" required>
+                            <label for="metro">Playa del Carmen-Cozumel Ferry dock</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="maya" name="rental-location" value="maya" required>
+                            <label for="maya">Terminal Puerta Maya</label>
+                        </div>
+                    </fieldset><br>
+
+                    <button type="submit" class="submit-btn">Confirm Reservation</button>
                 </div>
             </form>
         </section>
+
+
     </main>
     <footer>
         <p>
