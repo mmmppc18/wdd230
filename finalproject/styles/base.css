@@ -117,6 +117,13 @@ nav {
     border-radius: 0px 0px 10px 10px;
 }
 
+footer {
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+}
+
 
 
 /* ================
@@ -126,8 +133,10 @@ header,
 footer {
     background-color: #1D4542;
     color: #E5DDDD;
+    display: flex;
+    flex-flow: column;
     text-align: center;
-    padding: 1rem;
+    padding: 20px;
 }
 
 img {
@@ -161,7 +170,7 @@ img {
     justify-items: center;
 }
 
-.rental-agreement{
+.rental-agreement {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -177,7 +186,7 @@ img {
 }
 
 .cf1 legend {
-    color:#24060E;
+    color: #24060E;
     padding: 0.5rem;
     font-size: 1.8rem;
 }
@@ -211,7 +220,7 @@ img {
 
 .cf1 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(#22A86B,#1D4542 );
+    background-image: linear-gradient(#22A86B, #1D4542);
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
@@ -223,6 +232,23 @@ img {
 
 .cf1 input:required {
     border-right: solid 8px rgb(113, 15, 15);
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
 }
 
 /* ================
