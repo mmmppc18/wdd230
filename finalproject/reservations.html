@@ -48,7 +48,64 @@
             </ul>
         </nav>
     </div>
-    <main></main>
+    <main>
+        <h2>Rental Services and Agreements</h2>
+        <div class="container">
+
+            <ul>
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+        <h2>Reservation Details</h2>
+        <form method="get" action="respond.html" class="cf1">
+            <fieldset>
+                <legend>Reservation Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Mobile Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <legend class="type" required>Rental Type</legend>
+                <label><input type="radio" name="rentalType" value="metro">Honda Metropolitan (49cc) - 1 person</label>
+                <label><input type="radio" name="rentalType" value="dio">Honda Dio (110cc) - 2 person</label>
+                <label><input type="radio" name="rentalType" value="pc">Honda PCX150 (149cc) - 2 person</label>
+                <label><input type="radio" name="rentalType" value="pioneer">Honda Pioneer 1000 - 4 person</label>
+                <label><input type="radio" name="rentalType" value="jeep4">Jeep Wrangler - 4 door manuel with A/C - 5
+                    person</label>
+                <label><input type="radio" name="rentalType" value="jeep2">Jeep Wrangler - 2 door - open air - manuel -
+                    4 person</label>
+                <legend class="location" required>Location:</legend>
+                <label><input type="radio" name="location" value="playa">Playa del Carmen-Cozumel Ferry dock</label>
+                <label><input type="radio" name="location" value="maya">Terminal Puerta Maya</label>
+                <label>Start Date:<input type="date" name="startDate"></label>
+                <label>Rental Period (days):<input type="number" id="rentalPeriod" name="rentalPeriod" min="1"
+                        required></label>
+                <label for="home-state">Home State or Country: <input type="text" id="home-state" name="home-state"
+                        required></label>
+                <label for="cruise-line">Cruise Line (if applicable): <input type="text" id="cruise-line"
+                        name="cruise-line"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Acommodations/Comments:</legend>
+                <label>Please let us know your comments or questions</label>
+                <textarea id="accommadations" name="accommadations" rows="4" cols="50"></textarea>
+
+            </fieldset>
+
+            <input type="hidden" id="timestamp" name="timestamp">
+
+            <input type="submit" value="Confirm Reservation">
+        </form>
+
+    </main>
     <footer>
         <p>
             &copy;<span id="year"></span> | Carol E. Anderson | Utah

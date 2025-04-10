@@ -18,7 +18,9 @@ fonts: silver northern titles, logos
     Global Styles
   =================*/
 * {
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -159,76 +161,68 @@ img {
     justify-items: center;
 }
 
-.rental-agreement,
-.reservation-form {
+.rental-agreement{
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-grid label {
-    font-weight: bold;
+.cf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    justify-items: center;
 }
 
-.form-grid legend {
-    font-weight: bold;
+.cf1 legend {
+    color:#24060E;
+    padding: 0.5rem;
+    font-size: 1.8rem;
 }
 
-
-.form-grid input,
-.form-grid select,
-.form-grid textarea {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 4px;
-    font-size: 1rem;
+.cf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #2b1220;
+    font-size: .9rem;
 }
 
-.form-grid textarea {
-    resize: vertical;
-    height: 100px;
+.cf1 input[type="text"],
+.cf1 input[type="tel"],
+.cf1 input[type="email"],
+.cf1 input[type="number"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
 }
 
-.submit-btn {
-    grid-column: span 2;
-    padding: 15px;
-    background-color: #072f5a;
-    color: white;
+.cf1 input[type="radio"],
+.cf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.cf1 input[type="submit"] {
     border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-image: linear-gradient(#22A86B,#1D4542 );
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 4px 4px #999;
 }
 
-.submit-btn:hover {
-    background-color: #4f8bcb;
-}
-
-.rental-type {
-    grid-column: span 2;
-    margin-bottom: 20px;
-}
-
-.rental-type legend {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.radio-option {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.radio-option input {
-    margin-right: 5px
-}
-
-.radio-option label {
-    font-size: 1rem;
-    font-weight: normal;
+.cf1 input:required {
+    border-right: solid 8px rgb(113, 15, 15);
 }
 
 /* ================

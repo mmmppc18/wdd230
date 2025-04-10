@@ -28,7 +28,7 @@
 
 <body>
     <header>
-        <h1>Page Title Heading </h1>
+        <h1>Contact Us</h1>
     </header>
     <div class="menu">
         <a id="menu"></a>
@@ -42,7 +42,43 @@
             </ul>
         </nav>
     </div>
-    <main></main>
+
+
+
+    <main>
+        <nav>
+            <p>Scoots Motor Scooter Rentals<br><br><strong>Locations: </strong>234 Playa del Carmen-Conzumel Ferry
+                Dock<br>Phone:123-123-1234<br><br>123 Terminal Puerta Maya<br>Phone:456-789-9874</p>
+        </nav>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238988.30875697525!2d-87.38018989562988!3d20.621016132884442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e430a3b3c73db%3A0xf1147cfcfa9097b6!2sFerry%20Cozumel!5e0!3m2!1sen!2sus!4v1744257869009!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.733795477434!2d-86.97695227530006!3d20.47612405653117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cd70625421%3A0xb1974a1818657af2!2sCozumel%20Cruise%20Terminal!5e0!3m2!1sen!2sus!4v1744258180480!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <form method="get" action="thankyou.html" class="cf1">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Mobile Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Comments or Quetions</label>
+                <textarea id="description" name="description" rows="4" cols="50"></textarea>
+
+            </fieldset>
+
+            <input type="hidden" id="timestamp" name="timestamp">
+
+            <input type="submit" value="Contact Us">
+        </form>
+
+    </main>
     <footer>
         <p>
             &copy;<span id="year"></span> | Carol E. Anderson | Utah
