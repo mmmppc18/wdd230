@@ -36,6 +36,8 @@ function displayCurrentWeather(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     currentHumidity.innerHTML = `${data.main.humidity}%`;
 
+    document.getElementById('temp-max').textContent = data.main.temp_max;
+
     const iconCode = data.weather[0].icon;
     const iconsrc = `http://openweathermap.org/img/wn/${iconCode}.png`;
     weatherIcon.setAttribute('src', iconsrc);
