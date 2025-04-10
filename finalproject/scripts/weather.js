@@ -28,7 +28,6 @@ async function apiFetch(url) {
 }
 
 const currentUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${20.42}&lon=${-86.92}&appid=${`4d28a8b5d356758d518dc67e8c28e7c5`}&units=imperial`;
-const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${20.42}&lon=${-86.92}&appid=${`4d28a8b5d356758d518dc67e8c28e7c5`}&units=imperial`;
 
 apiFetch(currentUrl);
 
